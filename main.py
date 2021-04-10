@@ -1,10 +1,10 @@
 import pymongo
 from pymongo import MongoClient
-from ac import AC
 import time
 import json
 
-cluster = MongoClient(AC)
+cluster = MongoClient(
+    "mongodb+srv://public-user:public-mongoDB@cluster0.9favd.mongodb.net/POE_DOCS?retryWrites=true&w=majority")  # read only connection string
 Itemdb = cluster["POE_DOCS"]
 currencyCollection = Itemdb["Currency"]
 buyorderCollection = Itemdb["buyorder"]
