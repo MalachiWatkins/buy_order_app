@@ -15,7 +15,7 @@ jewelsCollection = Itemdb["Jewels"]
 mapsCollection = Itemdb["Maps"]
 weaponsCollection = Itemdb["weapons"]
 armourCollection = Itemdb["armour"]
-
+# add more collections
 stop_button = ''  # change this to when a stop button is pressed
 custom_id = 'test_id'  # custom id
 button_pressed = 'PRESSED'  # change this to when a button is pressed
